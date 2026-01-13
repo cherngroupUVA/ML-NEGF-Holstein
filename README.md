@@ -5,13 +5,13 @@ A ML framework to predict the electronic forces of the square-lattice Holstein m
 -------------------------------------------------
 Training Data
 -------------------------------------------------
-The training_data directory contains two subfolders:
+The training_data directory contains two zip folders:
 
-t0_547: snapshots from time step 0 to time step 547
+t0_547.zip: snapshots from time step 0 to time step 547
 
-t547_1094: snapshots from time step 547 to time step 1094
+t547_1094.zip: snapshots from time step 547 to time step 1094
 
-Each file is named cq*.dat, where * denotes the time step.
+Each configuration is named cq*.dat, where * denotes the time step.
 
 File format (cq*.dat):
 
